@@ -1,7 +1,13 @@
 {
-  "name": "react-es6",
+  "name": "hapi-react-es6",
   "version": "1.0.0",
   "description": "Simple demo of hapi node server and ES6 Reactjs component",
+  "author": "Nate Geslin",
+  "repository" :
+  {
+    "type" : "git",
+    "url" : "https://github.com/n8rzz/hapi-react-es6.git"
+  },
   "main": "index.js",
   "scripts": {
     "start": "gulp && node index.js"
