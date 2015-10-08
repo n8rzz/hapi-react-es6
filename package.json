@@ -1,0 +1,26 @@
+{
+  "name": "react-es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp && node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babelify": "^6.3.0",
+    "browserify": "^11.2.0",
+    "gulp": "^3.9.0",
+    "jasmine": "^2.3.2",
+    "jest-cli": "^0.5.8",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "hapi": "^10.4.0",
+    "hoek": "^2.16.3",
+    "inert": "^3.1.0",
+    "path": "^0.12.7",
+    "react": "^0.13.3"
+  }
+}

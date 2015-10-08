@@ -1,0 +1,13 @@
+{
+  "name": "n",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "es6"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "dependencies": {}
+}
