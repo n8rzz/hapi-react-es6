@@ -1,5 +1,5 @@
-# React with ES6 and Hapi
-A Starter app running Hapi and React with ES6.
+# Simple React/Redux starter
+> with Hapi, ES6, tcomb and Browserify
 
 ## Installation
 
