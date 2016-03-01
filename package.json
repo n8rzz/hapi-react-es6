@@ -2,17 +2,15 @@
   "name": "hapi-react-es6",
   "version": "1.0.0",
   "description": "Simple demo of hapi node server and ES6 Reactjs component",
-  "author": "Nate Geslin",
-  "repository" :
-  {
-    "type" : "git",
-    "url" : "https://github.com/n8rzz/hapi-react-es6.git"
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/n8rzz/hapi-react-es6.git"
   },
   "main": "index.js",
   "scripts": {
     "start": "gulp && node index.js"
   },
-  "author": "",
   "license": "MIT",
   "devDependencies": {
     "babelify": "^6.3.0",
@@ -27,6 +25,11 @@
     "hoek": "^2.16.3",
     "inert": "^3.1.0",
     "path": "^0.12.7",
-    "react": "^0.13.3"
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-redux": "^4.4.0",
+    "react-router": "^2.0.0",
+    "redux": "^3.3.1",
+    "redux-create-reducer": "^1.1.0"
   }
 }
