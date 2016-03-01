@@ -1,3 +1,7 @@
 {
-    "stage": 0
+    "presets": ["es2015", "stage-1", "react"],
+    "plugins":[
+        "transform-object-rest-spread",
+        "babel-plugin-transform-decorators-legacy"
+    ]
 }
