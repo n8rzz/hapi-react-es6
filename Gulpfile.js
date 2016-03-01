@@ -6,20 +6,20 @@ var source = require('vinyl-source-stream');
 var SOURCE = './src';
 var BUILD = './build';
 
-gulp.task('watch', function() {
-    gulp.watch(SOURCE + '/**', ['build']);
-});
-
 gulp.task('build', function() {
     browserify({
-        entries: 'src/scripts/shared/content/index.jsx',
+        entries: 'src/scripts/client/index.js',
         extensions: ['.js, .jsx'],
         debug: true
     })
-        .transform(babelify)
-        .bundle()
-        .pipe(source('bundle.js'))
-        .pipe(gulp.dest(BUILD + '/assets/scripts/'));
+    .transform(babelify)
+    .bundle()
+    .pipe(source('bundle.js'))
+    .pipe(gulp.dest(BUILD + '/assets/scripts/'));
+});
+
+gulp.task('watch', function() {
+    return gulp.watch(SOURCE + '/**', ['build']);
 });
 
 gulp.task('default', ['build']);
